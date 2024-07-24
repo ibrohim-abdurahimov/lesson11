@@ -172,12 +172,76 @@ li{
 .sold__wrapper{
     display: flex;
     gap: 20px;
+    padding: 80px 0;
+    
 }
 .sold__title{
     text-align: center;
-    margin-top: 40px;
+    margin-top: 80px;
     margin-bottom: 40px;
 }
 .sold__card{
     width: calc(25% - 15px);
+    margin-bottom: 5px;
+    transition: .5s;
+
+}
+.sold__card:hover{
+    transform: scale(1.4);
+}
+.sold__img img{
+    border-radius: 50%;
+}
+.sold__body{
+    margin-top: 5px;
+    text-align: center;
+}
+.body__title{
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.body__desc{
+    color: #898989;
+    font-size: 16px;
+    font-weight: 300;
+    height: 44px;
+    overflow: hidden;
+    
+}
+.body__desc:hover{
+    overflow:auto;
+}
+.body__price{
+    margin-top: 10px;
+
+}
+.values__subtitle{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.values__wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.values__card{
+    width: 339px;
+    height: 175px;
+    padding: 0 15px;
+    
+}
+.values__img img{
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.values__body{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+.values__desc{
+    margin-top: 8px;
+    color: #898989;
 }
